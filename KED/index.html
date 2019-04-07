@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/css/main.css">
+	<script src="/js/jscolor/jscolor.js"></script>
+</head>
+<body>
+
+	<div class="g_container">
+
+		<!-- First Container -->
+		<div class="f_block">
+			<nav id="main_menu">
+				<a href="#s_block" style="text-decoration: none;">
+					<div class="arrow_down"></div>
+				</a>
+			</nav>
+			<img src="/img/f_block.jpg" alt="" class="img_f">
+		</div>
+
+		<!-- Second container -->
+		<div class="s_block" id="s_block">
+
+			<div class="s_block_right">
+				
+				<!-- Final outcome CSS code -->
+		
+				<p style="text-align: center; font: 1em Tahoma; color: black; margin-top: 40px;">Result</p>
+				<div class="block"></div>
+				
+				<!-- Result changing on block -->
+
+				<p style="text-align: center; font: 1em Tahoma; color: black; margin-top: 50px;">Your CSS</p>
+				<div class="block_for_textarea">
+					<textarea  style="color: black; width: 300px; height: 105px; resize: none; overflow: hidden;" id="code-result" readonly></textarea>
+				</div>
+			</div>
+			
+			<div class="s_block_left">
+
+				<!-- Change width block -->
+
+				<p style="text-align: center; font: 1em Tahoma; color: white; margin-top: 40px">Change   width block</p>
+				<div class="block_for_btn">
+					<div class="container_for_btn">
+						<button class="btn"  id="increase-width">↑</button>
+						<button class="btn"  id="reduse-width">↓</button>
+					</div>
+				</div>
+				<div class="block_for_input">
+				<span class="step">step :</span>
+					<div class="container_for_input">
+						<input type="number" id="step-block-width" class="input" min="0" max="380" value="1"></input> 
+					</div>
+				</div>
+
+				<!-- Change height block -->
+
+				<p style="text-align: center; font: 1em Tahoma; color: white; margin-top: 130px;">Change   height block</p>
+				<div class="block_for_btn">
+					<div class="container_for_btn">
+						<button class="btn"  id="increase-height">↑</button>
+						<button class="btn"  id="reduse-height">↓</button>
+					</div>
+				</div>
+				<div class="block_for_input">
+				<span class="step">step :</span>
+					<div class="container_for_input">
+						<input type="number" id="step-block-height" min="0"  max="300" class="input" value="1"></input> 
+					</div>
+				</div>
+
+				<!-- Change border-radius block  -->
+			
+				<p style="text-align: center; font: 1em Tahoma; color: white; margin-top: 130px;">Change   border-radius</p>
+					<div class="block_for_btn">
+						<div class="container_for_btn">
+							<button class="btn"  id="increase-radius">↑</button>
+							<button class="btn"  id="reduse-radius">↓</button>
+						</div>
+					</div>
+				
+				<div class="block_for_input">
+				<span class="step">step :</span>
+					<div class="container_for_input">
+						<input type="number" id="step-block-br" min="0" max="60" class="input" value="1"></input> 
+					</div>
+				</div>
+				
+				<!-- Change color block  -->
+
+				<p style="text-align: center; font: 1em Tahoma; color: white; margin-top: 130px;">Change   color</p>
+				<div class="block_for_bg_br">
+					<div class="container_for_bg_br">
+						<span style="text-align: center; font: 0.7em Tahoma; color: #ccc;">Border color</span>
+						<input type="text" value="000000" class="input_bg jscolor" id="border-color">
+					</div>
+				</div>
+				<div class="block_for_bg">
+					<div class="container_for_bg">
+						<span style="text-align: center; font: 0.7em Tahoma; color: #ccc;">Background color</span>
+						<input type="text" value="FFFFFF" class="input_bg jscolor" id="bg-color">
+					</div>
+				</div>	
+			</div>
+		</div>
+
+		<!-- Third container -->
+		<div class="t_block">
+			<p style="text-align: center; font: 1em Tahoma; color: black; margin-top: 40px; font-weight: bold; word-spacing: 2px;">Thanks for downloading and using my program =)</p>
+			<p style="text-align: center; font: 0.8em Tahoma; color: black; margin-top: 10px;">I hope my editor helped in your project or education.</p>
+			<p style="text-align: center; font: 0.8em Tahoma; color: black; margin-top: 30px; ">Design by Kamol Rakhimov ©  2017</p>
+		</div>
+	</div>
+
+</body>
+</html>
+<script src="/js/jquery-1.11.2.js"></script>
+<script src="/js/main.js"></script>
