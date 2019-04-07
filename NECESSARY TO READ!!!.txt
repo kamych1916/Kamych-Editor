@@ -1,0 +1,29 @@
+Thank you for downloading this program !
+All rights reserved © 2017, Kamych Editor
+
+---------------------------------------------------------— 
+Kamych Editor - grafical user interface
+---------------------------------------------------------— 
+
+To open the program you will need to go to the folder  "/KED" and start the file with the name "KED.exe"
+
+___________________________________________
+Instructions for using KED:
+In order to understand all the points you will need to open the image without fail "/Instruction.jpg".
+
+• 1 step - in all similar buttons, when pressed, the corresponding block parameters from step 5.
+
+• 2 step - in all similar forms the value (number) is entered, as a result of which you can interact your value with a button from the first step.
+
+• 3 step - in this step, when you click on the form, you can choose the right stroke color (RGB) for you, the block from step 5.
+
+• 4 step - in this step, when you click on the form, you can choose the appropriate background color for you, the block from step 5.
+
+• 5 step - the same blog, which at the beginning has standard values and changes with correction.
+
+• 6 step - in this container the code (CSS format) of the block from step 5 is displayed
+___________________________________________
+
+In case of any problems that arise, you will contact the author (Rakhimov Kamol, www.vk.com/kamych1916, +7 (920) 121-89-40, kamych1916@gmail.com).
+
+Thank you for attention !
